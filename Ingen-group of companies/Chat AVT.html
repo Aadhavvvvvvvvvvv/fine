@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat AVT</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Styling for the navigation bar */
+        nav {
+            background-color: #007bff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        /* Styling for the homepage */
+        #home {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        #home h1 {
+            font-size: 48px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        #home p {
+            font-size: 20px;
+            color: #444;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 30px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Styling for other sections */
+        section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #007bff;
+        }
+
+        section p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #444;
+        }
+
+        /* Styling for the footer */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        /* Add animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        section {
+            animation: fadeInUp 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About AI</a></li>
+            <li><a href="#services">AI Services</a></li>
+            <li><a href="#use-cases">Use Cases</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage -->
+    <section id="home">
+        <h1>Welcome to our <span style="color: #007bff;">AI Website</span></h1>
+        <p>Discover the power of artificial intelligence in various fields.</p>
+        <a href="#services" class="cta-button">Explore AI Services</a>
+    </section>
+
+    <!-- About AI Section -->
+    <section id="about">
+        <h2>About AI</h2>
+        <p>
+            <!-- Add your informative content here -->
+        </p>
+    </section>
+
+    <!-- AI Services Section -->
+    <section id="services">
+        <h2>AI Services</h2>
+        <p>
+            <!-- Add a detailed description of AI services and products here -->
+        </p>
+        <a href="#" class="cta-button">Learn More</a>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases">
+        <h2>Use Cases</h2>
+        <p>
+            <!-- Add real-life examples or case studies demonstrating AI's benefits -->
+        </p>
+        <a href="#" class="cta-button">View Use Cases</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            <!-- Add your contact information and a contact form here -->
+        </p>
+        <a href="#" class="cta-button">Get in Touch</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Chat AVT. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

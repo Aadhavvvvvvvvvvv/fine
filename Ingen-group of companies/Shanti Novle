@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavish E-book Library</title>
+    <style>
+        /* Basic styling, you can enhance and customize this further */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .book-card {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .book-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book-title {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .book-author {
+            color: #888;
+        }
+        .book-description {
+            margin-top: 10px;
+        }
+        .book-rating {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lavish E-book Library</h1>
+    </header>
+    <div class="container">
+        <div class="book-card">
+            <img src="book1.jpg" alt="Book 1">
+            <div class="book-title">Book Title</div>
+            <div class="book-author">Author Name</div>
+            <div class="book-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed urna vel massa commodo suscipit sit amet ac ex.
+            </div>
+            <div class="book-rating">Rating: 4.5/5</div>
+            <!-- Add rating and review functionality here -->
+        </div>
+        <!-- Add more book cards here -->
+    </div>
+</body>
+</html>
